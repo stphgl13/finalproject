@@ -1,0 +1,31 @@
+.headbr {background-color: rgb(47, 95, 72);}
+
+
+#hefont1 {font-family: 'Courier New';}
+#hefont2 {font-family: 'impact';}
+#hefont3{font-family: 'Cambri'}
+
+.pfont1{font-family: 'Verdana';}
+.pfont2{font-family: 'Franklin Gothic Medium';}
+.pfont3{font-family: 'Trebuchet MS';}
+
+body{background-color: rgb(29, 62, 47);}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+div.gridwrap{
+    overflow-wrap: anywhere;}
+
+.bigfont{font-size:  10em;}
+
+.center{display:block;
+margin-left:auto;
+margin-right:auto;
+width: 50%;
+}
