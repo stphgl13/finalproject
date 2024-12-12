@@ -1,4 +1,4 @@
-.headbr {background-color: rgb(47, 95, 72);}
+.headbr {background-color: #2f5f48;}
 
 
 .hefont {font-family: 'Courier New';}
@@ -7,7 +7,8 @@
 
 
 
-body{background-color: rgb(29, 62, 47);}
+body{background-color: #2F5F48;}
+
 
 img {
     width: 100%;
@@ -27,3 +28,87 @@ margin-left:auto;
 margin-right:auto;
 width: 50%;
 }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 16px; 
+        padding: 16px; 
+        box-sizing: border-box;
+        background-color: #F3F2EC; 
+        border-radius: 12px; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+      }
+      
+      
+      
+      .gallery {
+        width: 100%; 
+        height: auto;   border-radius: 8px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        object-fit: cover; 
+      }
+
+     .PGTitle {
+        font-family: 'Times New Roman', serif;
+        font-size: 50px;
+        color: #1D3E2F;
+        background-color:#9DB39F;
+        border: 2px solid #1D3E2F;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .container mt-5 {
+        background-color: white; 
+        border-radius: 10px; 
+    }
+    
+    .col-4, .col-4 {
+        background-color: #f8f9fa; 
+        border-radius: 10px; 
+    }
+    
+    .article{
+        width: 50%;  
+        margin: 0 auto;  
+        padding: 20px;  
+        border: 2px solid #000; 
+        box-sizing: border-box; 
+      }
+      
+    
+      .article {
+        margin-bottom: 30px; 
+        padding: 20px;  
+        border: 1px solid #ccc; 
+        background-color: #f9f9f9;  
+      }
+      
+      h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;  
+        color: #333;  
+      }
+      
+      p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;  
+        color: #555;  
+      }
+      
+      img {
+        width: 100%;  
+        height: auto;
+        margin-top: 10px;
+      }
+      
+      .ccn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute; /* Or you can use position: relative if you need it in the flow */
+        bottom: 10px; /* Adjust based on where you want it vertically */
+        left: 50%;
+        transform: translateX(-50%);
+      }
