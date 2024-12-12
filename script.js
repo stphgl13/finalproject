@@ -1,17 +1,5 @@
 
     
-        function nextbutt() {
-            const currentArticle = document.getElementById(allArticles[currentIndex]);
-            
-        
-        
-            }
-    
-    
-       
-        
-document.getElementById('buttnext').addEventListener('click', nextbutt);
-document.getElementById('hidebutt').addEventListener('click', hideit);
 
 
 
